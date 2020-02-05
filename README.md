@@ -1,0 +1,1 @@
+Redoing the google homepage to auto adjust, clean up sloppy code, figure out <div> tags.
