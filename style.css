@@ -175,4 +175,6 @@ padding-right: 20px;
     border: solid rgb(206, 206, 207) .5px;
 }
 
-
+#none {
+    text-decoration: none;
+}
