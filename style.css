@@ -23,28 +23,53 @@
 input {
     height: 40px;
     width: 500px;
+    padding: 0px, 40px;
     border-width: 1pt;
     border-style: solid;
     border-color: rgba(201, 202, 201, 0.973);
     border-radius: 50px;
     margin-bottom: 20px;
-    background-image: url(https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png), url(https://img.icons8.com/material-sharp/48/000000/search.png);
-    background-repeat: no-repeat;
-    background-position: right, left;
-    background-size: 2em 2em;
-    padding-right: 20px;
-
     }
+
+form {
+        margin: auto;
+}
 
 input:hover {
     box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
     border-color: rgba(223,225,229,0);
 }
 
-.icons {
-   
+
+.micbutton
+{
+    width: 25px;
+    height: 25px;
+    display: block;
+    margin: auto;
+    transform: translate(900%,-220%);
+    border: none;
+    background: transparent;
+    background-image: url(https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+
 }
 
+.magbutton {
+    width: 20px;
+    height: 20px;
+    display: block;
+    margin: right;
+    transform: translate(100%,-390%);
+    border: none;
+    background: transparent;
+    background-image: url(https://img.icons8.com/android/24/000000/search.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+}
 
 /* List items */
 
@@ -149,3 +174,5 @@ padding-right: 20px;
     color: black;
     border: solid rgb(206, 206, 207) .5px;
 }
+
+
